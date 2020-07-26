@@ -1,0 +1,1 @@
+psql -p 5400 -U melly wow : connect to DB
