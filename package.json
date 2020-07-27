@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.7",
+    "braces": "^3.0.2",
     "express": "^4.17.1",
     "mariadb": "^2.4.2",
     "mongoose": "^5.9.25",
