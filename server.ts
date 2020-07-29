@@ -1,5 +1,4 @@
 import express = require('express')
-import path = require('path')
 import dotenv from 'dotenv'
 import * as routes from './src/routes/routes'
 
