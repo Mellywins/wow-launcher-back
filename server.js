@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 3000;
 var app = express();
 app.get('/', function (req, res) {
     db_1.default.query("select * from account")
-        .then(function (e) { return console.log(e); })
+        .then(function (e) { return console.table(e.rows); })
         .catch(function (err) { return console.log(err); });
     res.sendFile(path.join(__dirname + '/index.html'));
 });

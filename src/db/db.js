@@ -13,13 +13,13 @@ var db = {
         return pool.query(text, params, callback);
     }
 };
-var client = new Client({
-    user: 'melly',
-    host: 'localhost',
-    database: 'wow',
-    password: '1999',
-    port: 5400
-});
+// const client = new Client({
+//     user: 'melly',
+//     host: 'localhost',
+//     database: 'wow',
+//     password: '1999',
+//     port: 5400
+// })
 // client.connect()
 //     .then(() => console.log('connected sucessfully!'))
 //     .then(() => client.query('select * from account'))
